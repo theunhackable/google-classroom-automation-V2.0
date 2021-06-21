@@ -7,6 +7,11 @@ import datetime
 import calendar
 import os
 from map import update_links
+file = open('data.json','r')
+data = file.read()
+file.close()
+data = json.loads(data)
+
 
 # Returns day name
 def find_day():
@@ -30,9 +35,10 @@ def print_timetable():
               }
     day = find_day().lower()
     time_table = subjects.get(day)
-    print('\tSNO.\tSUBJECT')
+    print('\n\t --->>> AUTOMATING GOOGLE CLASSROOM V 2.0 <<<---')
+    print('\n\t\t\tSNO.\tSUBJECT')
     for i, j in enumerate(time_table):
-        print(f'\n\t{i + 1}\t{j}')
+        print(f'\n\t\t\t{i + 1}\t{j}')
 
 
 # Open the classes
@@ -60,19 +66,15 @@ def help():
 def main():
     if not os.path.isfile('data.json'):
         update_links()
-    file = open('data.json','r')
-    data = file.read()
-    file.close()
-    data = json.loads(data)
     subject = sys.argv[1].upper()
     subjects = data.keys()
     if subject in subjects:
         open_class(data[subject])
-    elif subject == '-t':
+    elif subject == '-T':
         print_timetable()
-    elif subject == '-h' or '--help':
+    elif subject == '-H' or '--HELP':
         help()
-    elif subject == '-u':
+    elif subject == '-U':
         update_links()
     else: 
         print(f'COMMAND NOT FOUND ---> {subject}')
