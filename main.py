@@ -6,8 +6,8 @@ import time
 import datetime
 import calendar
 import os
-from map import update_links
-file = open('data.json','r')
+from map import update_links,pwd
+file = open('W:\\projects\\classroom\\data.json','r')
 data = file.read()
 file.close()
 data = json.loads(data)
@@ -64,7 +64,7 @@ def help():
 
 # Main function
 def main():
-    if not os.path.isfile('data.json'):
+    if not os.path.isfile(pwd + '\data.json'):
         update_links()
     subject = sys.argv[1].upper()
     subjects = data.keys()
