@@ -44,3 +44,6 @@ pip3 install pyautogui
 - [datetime](https://docs.python.org/3/library/datetime.html)
 - [calendar](https://docs.python.org/3/library/calendar.html)
 - [os](https://docs.python.org/3/library/os.html)
+- google-api-python-client
+- google-auth-httplib2 
+- google-auth-oauthlib 
