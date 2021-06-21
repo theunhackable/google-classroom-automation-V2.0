@@ -6,7 +6,7 @@ import time
 import datetime
 import calendar
 import os
-from map import update_links,pwd
+from map import update_links
 file = open('W:\\projects\\classroom\\data.json','r')
 data = file.read()
 file.close()
