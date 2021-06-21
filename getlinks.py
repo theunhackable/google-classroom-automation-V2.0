@@ -40,7 +40,6 @@ def main():
             print('No courses found.')
         else:
             temp = {}
-            print('Courses:')
             for course in courses:
                 temp[course['name']] = course['alternateLink']
         return temp
