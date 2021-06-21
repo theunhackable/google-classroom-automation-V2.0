@@ -1,5 +1,6 @@
 import getlinks
 import json
+pwd = 'W:\\projects\\classroom\\'
         #   Course Name : Alias
         #   Edit course_alias variable
 course_alias = {'CGA Lab - III- S2': 'CGALAB',
@@ -27,5 +28,6 @@ def update_links():
     if data is None:
         pass
     else:
-        with open('data.json', 'w') as file:
+        with open(pwd + 'data.json', 'w') as file:
             file.write(json.dumps(data))
+        print('\n\t\t Links updated')
