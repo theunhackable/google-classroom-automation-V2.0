@@ -1,2 +1,2 @@
 @echo off
-py main.py %1
+py W:\projects\classroom\main.py %1
