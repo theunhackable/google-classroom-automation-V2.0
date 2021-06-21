@@ -33,3 +33,14 @@ pip3 install pyautogui
 - Download this repository
 
 ### 3. Make small changes as shown in the [video]()
+
+
+## Packages used
+- [json](https://docs.python.org/3/library/json.html)
+- [sys](https://docs.python.org/3/library/sys.html)
+- [webbrowser](https://docs.python.org/3/library/webbrowser.html)
+- [pyautogui](https://pyautogui.readthedocs.io/en/latest/)
+- [time](https://docs.python.org/3/library/time.html)
+- [datetime](https://docs.python.org/3/library/datetime.html)
+- [calendar](https://docs.python.org/3/library/calendar.html)
+- [os](https://docs.python.org/3/library/os.html)
