@@ -64,7 +64,7 @@ def help():
 
 # Main function
 def main():
-    if not os.path.isfile(pwd + '\data.json'):
+    if not os.path.isfile('W:\\projects\\classroom\\data.json'):
         update_links()
     subject = sys.argv[1].upper()
     subjects = data.keys()
