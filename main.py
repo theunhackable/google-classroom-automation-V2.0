@@ -72,7 +72,7 @@ def main():
         open_class(data[subject])
     elif subject == '-T':
         print_timetable()
-    elif subject == '-H' or '--HELP':
+    elif subject == '-H' or subject == '--HELP':
         help()
     elif subject == '-U':
         update_links()
