@@ -53,7 +53,7 @@ def open_class (url):
     time.sleep(10)
     
     try:
-        x, y = pyautogui.locateCenterOnScreen('video_btn.png', grayscale=True)
+        x, y = pyautogui.locateCenterOnScreen(getlinks.pwd + 'video_btn.png', grayscale=True)
         pyautogui.click(x, y)
         print('Meet link opened "SUCCESSFULLY"')
     
