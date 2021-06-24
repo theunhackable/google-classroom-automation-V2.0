@@ -47,6 +47,7 @@ def main():
         else:
             temp = {}
             for course in courses:
+                print(course['name'])
                 temp[course['name']] = course['alternateLink']
         return temp
     
