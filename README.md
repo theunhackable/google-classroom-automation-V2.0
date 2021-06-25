@@ -1,7 +1,14 @@
 # Google Classroom Automation V2.0
 ## Automating google classroom using google classroom api
+Helloo. Hope You all are safe at home. In the previous version of this project, we are unable to get the fresh meet links for the classrooms as they keep updating from time to time.
+Some of you have commented to make a video on automating google classroom login for dynamic links. This video is for you.
+I have used Google Classroom API for this process. Some of you do not understand how to use the code in the previous video. In this video I have explained how to use this code. At any case if you are unable to understand any part of this video, feel free to ask in the comment section. 
 
-Some of you have requested to make a video on how to automate for new class links everyday. This is for you.
+For the people with G-suit account  I would recommend you to use selinium to automate this process.
+If you do not have a g suit account or you are unable to login to your google account through selenium, this is the best way. 
+I would like to thank "Koton Bads" who commented about the google client API library. 
+If you like this video don't forget to subscribe 😁 ...
+
 
 ## Steps 
 ### 1. Get credentials.json file
