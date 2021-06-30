@@ -41,7 +41,7 @@ pip3 install pyautogui
 ### 2. Download this repository
 - Download this repository
 
-### 3. Make small changes as shown in the [video](https://youtu.be/NnufWXqpNLI)
+### 3. Make small changes as shown in the [video](https://www.youtube.com/watch?v=1WwLPcVaYxY&t=1s)
 
 
 ## Packages used
